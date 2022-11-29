@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji</title>
+    <style media="screen">
+    /* эмодзи 1 */
+    .emoji1 {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      margin 200px 30%;
+      background: url('images/emoji.png');
+    }
+    .walk {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      animation: walk 1s steps(1) infinite;
+    }
+    .emoji1:hover {
+      transform: rotate(180deg);
+    }
+    /* эмодзи2 */
+    .emoji2 {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      margin 200px 30%;
+      background: url('images/emoji2.png');
+    }
+    .run {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      animation: walk 1s steps(1) infinite;
+    }
+    .emoji2:hover {
+      transform: scale(2);
+    }
+    /* эмодзи3 */
+    .emoji3 {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      margin 200px 30%;
+      background: url('images/emoji3.png');
+    }
+    .chill {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      animation: walk 1s steps(1) infinite;
+    }
+    .emoji3:hover {
+      transform: scale(1.5);
+    }
+    /* эмодзи4 */
+    .emoji4 {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      margin 200px 30%;
+      background: url('images/emoji4.png');
+    }
+    .cry {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      animation: walk 1s steps(1) infinite;
+    }
+    .emoji4:hover {
+      transform: rotate(90deg);
+    }
+    /* эмодзи5 */
+    .emoji5 {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      margin 200px 30%;
+      background: url('images/emoji5.png');
+    }
+    .me {
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: relative;
+      animation: walk 1s steps(1) infinite;
+    }
+    .emoji5:hover {
+      transform: rotate(180deg);
+      transform: scale(2);
+
+    }
+    /* анимация эмодзи первая */
+    @keyframes walk {
+      0% {background-position: 0 top;}
+      20% {background-position: -150px 0;}
+      40% {background-position: -300px 0;}
+      60% {background-position: -450px 0;}
+      80% {background-position: -600px 0;}
+    100% {background-position: -750px 0;}
+  /* анимация эмодзи вторая */
+  @keyframes run {
+    0% {background-position: 0 top;}
+    20% {background-position: -150px 200px;}
+    40% {background-position: -300px 200px;}
+    60% {background-position: -450px 200px;}
+    80% {background-position: -600px 200px;}
+  100% {background-position: -750px 200px;}
+  /* анимация эмодзи третья */
+  @keyframes chill{
+    0% {background-position: 0 top;}
+    20% {background-position: -150px 400px;}
+    40% {background-position: -300px 400px;}
+    60% {background-position: -450px 400px;}
+    80% {background-position: -600px 400px;}
+  100% {background-position: -750px 400px;}
+  /* анимация эмодзи четвертая */
+  @keyframes cry{
+    0% {background-position: 0 top;}
+    20% {background-position: -150px 600px;}
+    40% {background-position: -300px 600px;}
+    60% {background-position: -450px 600px;}
+    80% {background-position: -600px 600px;}
+  100% {background-position: -750px 600px;}
+  /* анимация эмодзи пятая */
+  @keyframes cry{
+    0% {background-position: 0 top;}
+    20% {background-position: -150px 800px;}
+    40% {background-position: -300px 800px;}
+    60% {background-position: -450px 800px;}
+    80% {background-position: -600px 800px;}
+    100% {background-position: -750px 800px;}
+    </style>
+
+  </head>
+  <body>
+    <div class="emoji1 walk"></div>
+    <div class="emoji2 run"></div>
+    <div class="emoji3 chill"></div>
+    <div class="emoji4 cry"></div>
+    <div class="emoji5 me"></div>
+
+  </body>
+</html>
